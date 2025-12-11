@@ -16,5 +16,5 @@ Abaixo, o código padrão utilizado pelo Arquiteto:
 DB_HOST = "192.168.0.1"
 
 def configurar_banco():
-    ***Conecta usando constante definida***
+    ""Conecta usando constante definida""
     return f"Conectado ao {DB_HOST}"
