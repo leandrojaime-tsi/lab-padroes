@@ -1,3 +1,4 @@
+DB_HOST = "192.168.0.1"
+
 def configurar_banco():
-  # TODO: implementar logica de conexao
-  pass
+    return f"Conectado ao {DB_HOST}"
